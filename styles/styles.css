@@ -44,7 +44,6 @@
     justify-content: center;
 }
 
-
 /*-----------------*/
 
 *{
@@ -83,8 +82,6 @@ nav li ul{
     padding: 5px 20px ;
     margin: 5px 20px
 }
-
-
 
 /* HEADER*/
 
@@ -128,7 +125,6 @@ nav li ul{
 
 /*HERO*/
 
-
 .hero img{
     width: 100%;
     height: 100%;
@@ -156,8 +152,6 @@ nav li ul{
     height: 60vh;
 
 }
-
-
 
 
 /*PRODUCTOS PRINCIPALES*/
@@ -197,10 +191,6 @@ nav li ul{
 
 }
 */
-
-
-
-
 
 
 /*MODIFIQUE LA BOTONERA POR HEADER MENU*/
@@ -323,7 +313,6 @@ botonera__contacto{
     color: white;
     
 }
-
 
 
 .presupuesto{
@@ -454,7 +443,6 @@ botonera__contacto{
 }
 
 
-
 /*--------------------------------------------------*/
 /*PAGINA TIENDAS*/
 /*-----flex-----*/
@@ -561,14 +549,12 @@ botonera__contacto{
 }
 
 
-
 /*CONTACTO*/
 .contactoFooter{
     display: flex;
     justify-content: center;
     align-items: center;
    
-
 }
 
 .email{
@@ -627,8 +613,6 @@ botonera__contacto{
     align-items: center;
     grid-area: insta;
 }
-
-
 
 
 
