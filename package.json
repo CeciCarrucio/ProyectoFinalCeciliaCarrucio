@@ -1,0 +1,19 @@
+{
+  "name": "proyectofinalceciliacarrucio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeciCarrucio/ProyectoFinalCeciliaCarrucio.git"
+  },
+  "author": "Cecilia Carrucio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeciCarrucio/ProyectoFinalCeciliaCarrucio/issues"
+  },
+  "homepage": "https://github.com/CeciCarrucio/ProyectoFinalCeciliaCarrucio#readme"
+}
