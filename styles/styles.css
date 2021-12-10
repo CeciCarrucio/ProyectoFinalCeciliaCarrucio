@@ -154,6 +154,101 @@ nav li ul{
 }
 
 
+
+.SectionProductosPagPrinc{
+
+}
+
+
+
+
+
+.imagenPisosSection img{
+    margin: 150px 0;
+    padding:0 50px;
+    display: flex;
+    border-image: 20%;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    grid-area: auto;
+
+}
+
+
+.imagenCortinasSecton img{
+    margin: 150px 0;
+    padding:0 50px;
+    display: flex;
+    border-image: 20%;
+    height: 350px;
+    width: 550px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    grid-area: auto;
+
+
+}
+
+.imagenAlfombraSection img{
+    margin: 150px 0;
+    padding:0 50px;
+    display: flex;
+    border-image: 20%;
+    height: 350px;
+    width: 550px;
+    justify-content:space-evenly;
+    align-items:center;
+    grid-area: auto;
+    overflow: hidden;
+    transition: transform 2s;
+
+}
+
+
+
+.imagenAlfombraSection:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+.textoPisos{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+
+}
+
+.textoAlfombra{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+
+}
+
+.textoCortinas{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+
+}
+
+
+
 /*PRODUCTOS PRINCIPALES*/
 /*GADGETS*/
 /*-----flex-----*/
