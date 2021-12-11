@@ -400,7 +400,6 @@ botonera__contacto{
     border:0px solid;
     border-left: 30px;
     padding-left: 5px;
-
 }
 
 .presupuesto input[type="submit"]{
@@ -416,19 +415,6 @@ botonera__contacto{
     justify-content: center;
     align-items: center;
     height: 25%;
-
-}
-
-/* BARRA DE PROGRESO BOOSTRAP*/
-
-.progreso1{
-    background-color: #EA907A;
-
-}
-
-.progreso2{
-    color: white;
-
 }
 
     
@@ -441,22 +427,28 @@ botonera__contacto{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    color:  rgb(63, 60, 60);
-
+ 
 }
+
+.sectionVideos{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+}
+
+
 .fuenteTutoriales{
     color:  rgb(63, 60, 60);
 }
 
 .videos{
     text-align: center;
-    margin: 100px 0;
+    margin: 30px 0;
     padding:0 100px;
     display: flex;
     flex-wrap:nowrap;
     justify-content:flex-start;
-    color:  rgb(63, 60, 60);
-
+   
 }
 
 /*------------------------------------*/
@@ -543,6 +535,7 @@ botonera__contacto{
 /*-----flex-----*/
 /*ANIMACIONES-TRANSFORM*/
 
+
 .tiendas{
     text-align: center;
     margin: 100px 0;
@@ -553,10 +546,18 @@ botonera__contacto{
     color:  rgb(63, 60, 60);
 }
 
+.tiendasSection{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+
+}
+
 .sucursalAcosta{
     background-color: wheat;
-    width: 300px;
+    width: 400px;
     height: 270px;
+    gap: 50px;
     color: rgba(127, 154, 180, 0.993);
     text-align: center;
     border: 3px solid white;
@@ -573,8 +574,9 @@ botonera__contacto{
 
 .sucursalNazca{
     background-color: wheat;
-    width: 300px;
+    width: 400px;
     height: 270px;
+    gap: 50px;
     color: rgba(127, 154, 180, 0.993);
     text-align: center;
     border: 3px solid white;
