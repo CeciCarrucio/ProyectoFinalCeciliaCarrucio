@@ -1,0 +1,735 @@
+.fondoEA907A{
+    background-color:#EA907A;
+}
+
+.fondoFBC687{
+    background-color:#FBC687;
+}
+
+.fondoF4F7C5{
+    background-color:#F4F7C5;
+}
+.fondoAACDBE{
+    background-color:#AACDBE;
+}
+
+.fondoFoto25{
+    background-color:#FED2AA;
+}
+
+.fondofoto255{
+    background-color:#FFC898 ;
+}
+
+/*CLASES AUXILIARES*/
+
+
+.secciones{
+    margin: 100px 0;
+    padding: 0 100px;
+}
+
+/* HORIZONTAL */
+.flex{
+    display: flex;
+}
+
+/* VERTICAL*/
+.flex-c{
+    display: flex;
+    flex-direction: column;    
+}
+
+.flex-jc-c{
+    justify-content: center;
+}
+
+/*-----------------*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0cca0 ;
+}
+
+
+h1 , 
+h2 ,
+h3 , 
+h4 ,
+h5 ,
+h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+    color: rgb(63, 60, 60);
+    text-decoration: none;
+}
+
+/*NAV */
+nav li ul{
+    display:inline;
+    list-style-type:none;
+    background-color: rgb(63, 60, 60);
+    padding: 5px 20px ;
+    margin: 5px 20px
+}
+
+/* HEADER*/
+
+.header{
+    width: 1400px;
+    height: 100px;
+    position:fixed;
+    width: 100%;
+    padding:0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.headerLogo{
+    display: flex;
+    align-items: center;
+
+}
+
+.headerLogo imag{
+    width: 200px;
+    position: fixed;
+}
+
+.headerMenu{
+    width: 40%;
+}
+.headerMenu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.headerMenu ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+/*HERO*/
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    background-image:url(/images/imageGrande.jpg
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+
+/*BIOGRAFIA---- SOBRE ALPES-----*/
+
+.sobreAlpes{
+
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+}
+
+.imagenNumero25 img{
+    height: 60vh;
+
+}
+
+
+.imagenPantallatotal {
+
+}
+
+
+.imagenPisosSection img{
+    margin: 150px 0;
+    padding:0 50px;
+    display: flex;
+    border-image: 20%;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    grid-area: auto;
+
+}
+
+
+.imagenCortinasSecton img{
+    margin: 150px 0;
+    padding:0 50px;
+    display: flex;
+    border-image: 20%;
+    height: 350px;
+    width: 550px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    grid-area: auto;
+
+
+}
+
+.imagenAlfombraSection img{
+    margin: 150px 0;
+    padding:0 50px;
+    display: flex;
+    border-image: 20%;
+    height: 350px;
+    width: 550px;
+    justify-content:space-evenly;
+    align-items:center;
+    grid-area: auto;
+    overflow: hidden;
+    transition: transform 2s;
+
+}
+
+
+
+.imagenAlfombraSection:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+.textoPisos{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+
+}
+
+.textoAlfombra{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+
+}
+
+.textoCortinas{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+
+}
+
+
+
+/*PRODUCTOS PRINCIPALES*/
+/*GADGETS*/
+/*-----flex-----*/
+/*-----GADGETS LO REEMPLAZE POR BOOTSTRAP
+
+
+.gadgets{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+.gadgetsCards{
+    background-color: wheat;
+    width: 300px;
+    height: 270px;
+    color: rgba(127, 154, 180, 0.993);
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+.gadgetsCards img{
+    width: 100%;
+
+}
+.gadgetsCards{
+    font-size: 1.250rem;
+    margin-top: 20px;
+
+}
+*/
+
+
+/*MODIFIQUE LA BOTONERA POR HEADER MENU*/
+/*METODO BEM BOTONERA
+botonera__index{
+    background-color: #FBC687;
+    font-size: 1.2rem;
+    border: solid palevioletred; 
+
+}
+botonera__productos{
+    background-color: #FBC687;
+    font-size: 1.2rem;
+    border: solid palevioletred;
+
+}
+botonera__sobreAlpes{
+    background-color: #FBC687;
+    font-size: 1.2rem;
+    border: solid palevioletred;
+
+}
+botonera__tiendas{
+    background-color: #FBC687;
+    font-size: 1.2rem;
+    border: solid palevioletred;
+
+}
+botonera__contacto{
+    background-color: #FBC687;
+    font-size: 1.2rem;
+    border: solid palevioletred;
+
+}
+*/
+
+
+/*SE MODIFICO TODO ESTO*/
+/*PRODUCTOS PRINCIPALES
+
+.productosPrincipales{
+    background-color: #EA907A;
+    color: rgb(242, 244, 248);
+    font-size: 30px;
+}    
+
+.fondoFoto25{
+    position: relative;
+    top: -200px;
+    left: 100px;
+}
+*/
+
+
+/*CONTACTO.HTML
+
+.headerContacto{
+    width: 1400px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+.headerLogoContacto{
+    display: flex;
+}
+
+.headerLogoContacto image{
+    width: 200px;
+    position: fixed;
+}
+
+.headerMenuContacto ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.headerMenuContacto ul{
+    list-style: none;
+}
+*/
+ 
+/*PAGINA CONTACTO.HTML*/
+
+.sectionContacto{
+    text-align: center;
+    margin: 20px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+
+}
+
+
+.paginaContacto{
+    text-align: center;
+    margin: 200px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+}
+
+.presupuesto input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:0px solid;
+    border-left: 30px;
+    padding-left: 5px;
+}
+
+.presupuesto input[type="submit"]{
+    background-color: #EA907A;
+    color: white;
+    
+}
+
+
+.presupuesto{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+    
+/*PAGINA TUTOROALES*/
+
+.videosTutoriales{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+ 
+}
+
+.sectionVideos{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+}
+
+
+.fuenteTutoriales{
+    color:  rgb(63, 60, 60);
+}
+
+.videos{
+    text-align: center;
+    margin: 30px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+   
+}
+
+/*------------------------------------*/
+/*PAGINA PRODUCTOS LA REEMPLAZE POR BUSTRAB*/
+
+/*
+.productos{
+    text-align: center;
+    margin: 20px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    color:  rgb(63, 60, 60);
+}
+
+.productosTabla{
+    text-align: center;
+    margin: 300px 0;
+    padding:0 300px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+
+}
+*/
+
+/*PAGINA PRODUCTOS CON BUSTRAB Y GRID*/
+.boton{
+    background-color: #EA907A;
+    color: white;
+}
+
+.boton:hover{
+    color: white;
+
+}
+
+.carta{
+    width: 16rem;
+}
+
+.productosAlpes{
+    display: grid;
+    gap:none;
+    grid-template-columns: repeat(9.1fr);
+    grid-template-areas:
+    "productosCortinas ProductosPisos Produstosalfombras"
+    ;
+}
+
+.productosCortinas{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+
+.productosAlfombras{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+
+}
+
+.productosPisos{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+/*--------------------------------------------------*/
+/*PAGINA TIENDAS*/
+/*-----flex-----*/
+/*ANIMACIONES-TRANSFORM*/
+
+
+.tiendas{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+}
+
+.tiendasSection{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+
+}
+
+.sucursalAcosta{
+    background-color: wheat;
+    width: 400px;
+    height: 270px;
+    gap: 50px;
+    color: rgba(127, 154, 180, 0.993);
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 2s;
+    
+}
+
+.sucursalAcosta:hover{
+    transform: scale(1.1);
+
+}
+
+.sucursalNazca{
+    background-color: wheat;
+    width: 400px;
+    height: 270px;
+    gap: 50px;
+    color: rgba(127, 154, 180, 0.993);
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 2s;
+}
+
+.sucursalNazca:hover{
+    transform: scale(1.1);
+
+}
+
+.sucursalAcosta img{
+    width: 100%;
+}
+
+.sucursalAcosta{
+    font-size: 1.250rem;
+    margin-top: 20px;
+}
+
+.sucursalNazca img{
+    width: 100%;
+}
+
+.sucursalNazca{
+    font-size: 1.250rem;
+    margin-top: 20px;
+}
+
+/* BOTON CON BOOSTRAP*/
+
+.botonContacto{
+    background-color: #EA907A;
+    color: white;
+}
+
+.botonContacto:hover{
+    color: white;
+
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color:#f3bf7f8c;
+    height: 40vh;
+    color:  rgb(63, 60, 60);
+}
+
+/*FOOTER CON GRID*/
+.footer{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(9.1fr);
+    grid-template-areas:    
+    "contactoFooter alpesFooter socialFooter"
+    "email marianoA face"
+    "tel caba insta";
+}
+
+
+/*FOOTER CON GRADIENTES*/
+.footer{
+    background-image: linear-gradient(to bottom #EA907A #FBC687 );
+}
+
+
+/*CONTACTO*/
+.contactoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: email;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: tel;
+}
+
+/*ALPES*/
+.alpesFooter{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.marianoA{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    grid-area: marianoA;
+}
+
+.caba{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    grid-area: caba;    
+}
+
+
+/*SOCIAL*/
+.socialFooter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: face;
+}
+
+.insta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: insta;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*HEADER MENU*/
+
+@media screen and (max-widh:768px){
+    .headerMenu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li ul{
+   
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagenNumero25 img{
+        height: 20vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
