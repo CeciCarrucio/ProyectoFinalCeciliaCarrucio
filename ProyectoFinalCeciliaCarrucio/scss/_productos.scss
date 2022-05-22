@@ -1,0 +1,63 @@
+.boton{
+    background-color: #EA907A;
+    color: white;
+
+    &hover {
+        background-color: #EA907A;
+        color: white;
+
+    }
+}
+
+
+
+.carta{
+    width: 16rem;
+}
+
+.tituloProductos{
+    color:  rgb(63, 60, 60);
+
+}
+.productosAlpes{
+    display: grid;
+    gap:none;
+    grid-template-columns: repeat(9.1fr);
+    grid-template-areas:
+    "productosCortinas ProductosPisos Produstosalfombras"
+    ;
+}
+
+.productos{
+    &Cortinas {
+        text-align: center;
+        margin: 100px 0;
+        padding:0 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+
+    &Alfombras {
+        text-align: center;
+        margin: 100px 0;
+        padding:0 100px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+
+    }
+    
+    &Pisos {
+        text-align: center;
+        margin: 100px 0;
+        padding:0 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+
+
+
+}
+

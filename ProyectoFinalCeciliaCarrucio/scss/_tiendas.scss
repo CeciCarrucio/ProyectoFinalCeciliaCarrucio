@@ -1,0 +1,58 @@
+.tituloTiendas{
+    color:  rgb(63, 60, 60);
+
+}
+.tiendas{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+}
+
+.sucursalAcosta{
+    &hover {
+        transform: scale(1.1);
+    }& image {
+        width: 100%;
+    }
+    width: 100%;
+    font-size: 1.250rem;
+    margin-top: 20px;
+    background-color: wheat;
+    width: 400px;
+    height: 400px;
+    color: rgba(127, 154, 180, 0.993);
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 2s;
+
+    
+}
+
+
+
+.sucursalNazca{
+    &hover {
+        transform: scale(1.1);
+    }& image {
+        width: 100%;
+    }
+    width: 100%;
+    font-size: 1.250rem;
+    margin-top: 20px;
+    background-color: wheat;
+    width: 400px;
+    height: 400px;
+    color: rgba(127, 154, 180, 0.993);
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 2s;
+}
+

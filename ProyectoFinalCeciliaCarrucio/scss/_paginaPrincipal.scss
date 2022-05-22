@@ -1,0 +1,106 @@
+/*pagina principal*/
+.sobreAlpes{
+
+    font-size: 1.25rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  rgb(63, 60, 60);
+}
+
+.imagenNumero25 img{
+    height: 60vh;
+
+}
+
+.fotoCompletaInicio {
+    background-image:url(/images/fotoCompletaInicioMod.jpg); 
+    margin: 50px;
+    background-position: center;
+
+}
+
+.section {
+    &Alfombras {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 100px;
+
+    }
+
+    &Cortinas {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 100px;
+    }
+
+    &Pisos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 100px;
+    }
+    
+    }
+    
+ 
+    .texto {
+        &AlfombrasInicio {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            display: flex;
+            justify-content:space-between;
+            text-align: left;
+            color:  rgb(63, 60, 60);
+            padding: 30px;
+
+        }
+        &PisosInicio{
+
+            font-size: 1.25rem;
+            line-height: 1.8;
+            display: flex;
+            justify-content:space-between;
+            text-align: left;
+            color:  rgb(63, 60, 60);
+            padding: 30px;
+        }
+        &CortinasInicio{
+            font-size: 1.25rem;
+            line-height: 1.8;
+            display: flex;
+            justify-content:space-between;
+            text-align: left;
+            color:  rgb(63, 60, 60);
+            padding: 30px;
+
+        }
+    
+ 
+    }
+    
+    .fotoAlfombraIncio img{
+        height: 400px;
+        width: 400px;
+        margin: 50px;
+    }
+    
+
+    
+    .fotoPisosInicio img{
+        height: 400px;
+        width: 400px;
+        margin: 50px;
+    
+    }
+    
+    
+    .fotoCortinasInicio img{
+        height: 400px;
+        width: 400px;
+        margin: 50px;
+    }
+    

@@ -1,0 +1,75 @@
+.footer{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(9.1fr);
+    grid-template-areas:    
+    "contactoFooter alpesFooter socialFooter"
+    "email marianoA face"
+    "tel caba insta";
+}
+
+.footer{
+    background-image: linear-gradient(to bottom #EA907A #FBC687 );
+}
+
+.contactoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: email;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: tel;
+}
+
+
+.alpesFooter{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.marianoA{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    grid-area: marianoA;
+}
+
+.caba{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    grid-area: caba;    
+}
+
+.socialFooter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: face;
+}
+
+.insta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: insta;
+}

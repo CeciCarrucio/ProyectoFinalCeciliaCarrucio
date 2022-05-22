@@ -1,0 +1,24 @@
+.videosTutoriales{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+
+}
+.fuenteTutoriales{
+    color:  rgb(63, 60, 60);
+}
+
+.videos{
+    text-align: center;
+    margin: 100px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    color:  rgb(63, 60, 60);
+
+}

@@ -1,0 +1,48 @@
+.sectionContacto{
+    text-align: center;
+    margin: 20px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+
+}
+
+
+.paginaContacto{
+    text-align: center;
+    margin: 200px 0;
+    padding:0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:  rgb(63, 60, 60);
+}
+
+.presupuesto input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:0px solid;
+    border-left: 30px;
+    padding-left: 5px;
+
+}
+
+.presupuesto input[type="submit"]{
+    background-color: #EA907A;
+    color: white;
+    
+}
+
+
+.presupuesto{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+
+}

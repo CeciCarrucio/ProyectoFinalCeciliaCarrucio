@@ -1,0 +1,38 @@
+.header{
+    width: 1400px;
+    height: 100px;
+    position:fixed;
+    width: 100%;
+    padding:0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    &Logo{
+        display: flex;
+        align-items: center;
+        image {
+            width: 200px;
+            position: fixed;
+        }
+    }
+
+
+    &Menu{
+        width: 40%;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+          
+    }
+
+    }
+
+}
+
